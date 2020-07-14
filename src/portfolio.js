@@ -2,15 +2,15 @@
 
 // Website related settings
 const settings = {
-  isSplash: true,  // Change this to false if you don't want Splash screen.
+  isSplash: false,  // Change this to false if you don't want Splash screen.
 };
 
 
 //Home Page
 const greeting = {
-	title: "Ashutosh Hathidara",
-	logo_name: "AshutoshHathidara",
-	nickname: "layman_brother",
+	title: "Taimoor Sheikh",
+	logo_name: "Taimoor Sheikh",
+	// nickname: "layman_brother",
 	subTitle:
 		"A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
 	resumeLink:
@@ -31,47 +31,47 @@ const socialMediaLinks = {
 
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent"
-          }
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000"
-          }
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent"
-          }
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB"
-          }
-        }
-      ]
-    },
+    // {
+    //   title: "Data Science & AI",
+    //   fileName: "DataScienceImg",
+    //   skills: [
+    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+    //     "⚡ Experience of working with Computer Vision and NLP projects",
+    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Tensorflow",
+    //       fontAwesomeClassname: "logos-tensorflow",
+    //       style: {
+    //         backgroundColor: "transparent"
+    //       }
+    //     },
+    //     {
+    //       skillName: "Keras",
+    //       fontAwesomeClassname: "simple-icons:keras",
+    //       style: {
+    //         backgroundColor: "white",
+    //         color: "#D00000"
+    //       }
+    //     },
+    //     {
+    //       skillName: "PyTorch",
+    //       fontAwesomeClassname: "logos-pytorch",
+    //       style: {
+    //         backgroundColor: "transparent"
+    //       }
+    //     },
+    //     {
+    //       skillName: "Python",
+    //       fontAwesomeClassname: "ion-logo-python",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#3776AB"
+    //       }
+    //     }
+    //   ]
+    // },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -138,20 +138,20 @@ const skills = {
             color: "#2C8EBB"
           }
         },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399"
-          }
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B"
-          }
-        }
+        // {
+        //   skillName: "Gatsby",
+        //   fontAwesomeClassname: "simple-icons:gatsby",
+        //   style: {
+        //     color: "#663399"
+        //   }
+        // },
+        // {
+        //   skillName: "Flutter",
+        //   fontAwesomeClassname: "simple-icons:flutter",
+        //   style: {
+        //     color: "#02569B"
+        //   }
+        // }
       ]
     },
     {
@@ -272,53 +272,29 @@ const competitiveSites = {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
-        color: "#2EC866"
+        color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother"
+      profileLink: "https://www.hackerrank.com/taimoor_sheikh13",
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
+      siteName: "Hacktoberfest",
+      iconifyClassname: "simple-icons:hacktoberfest",
       style: {
-        color: "#5B4638"
+        color: "#323754",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919"
+      profileLink: "https://www.hackerearth.com/@ashutosh391",
     },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB"
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother"
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754"
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391"
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF"
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother"
-    }
-  ]
-}
+  ],
+};
 
 const degrees = {
   degrees : [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "Sir Syed University Of Engineering and Technology",
+      subtitle: "B.S in Computer Engineering",
+      logo_path: "ssuet.png",
+      alt_name: "SSUET",
+      duration: "2014 - 2017",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
